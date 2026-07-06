@@ -5,7 +5,6 @@
 </p>
 
 <p align="center">
-  <strong>Where Wealth Meets Elegance</strong><br/>
   A luxury mobile banking UI demo built with Flutter — 107 screens, glassmorphism design, Vietnamese-first flows.
 </p>
 
