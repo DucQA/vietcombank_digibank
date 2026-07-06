@@ -1,7 +1,7 @@
 # Aureum — Premium Mobile Banking UI
 
 <p align="center">
-  <img src="screenshots/01_hero.png" alt="Aureum home screen" width="280" />
+  <img src="screenshots/09_feature_graphic.png" alt="Aureum home screen" width="280" />
 </p>
 
 <p align="center">
