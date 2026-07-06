@@ -48,12 +48,10 @@ We welcome testers to explore the UI/UX and share feedback. No real money, accou
 
 ### Download
 
-| Platform | Link | Status |
-|----------|------|--------|
-| **Android** | [Google Play (Internal / Open Testing)](https://play.google.com/store/apps/details?id=YOUR_APP_ID) | Replace with your link |
+| Platform | Link / Instructions | Status |
+|----------|---------------------|--------|
+| **Android** | 1. Join the [Google Group](https://groups.google.com/g/aureum-digibank-testers)<br/>2. Download the app on [Google Play](https://play.google.com/apps/testing/com.dinhsoft.aureum) | Live |
 | **iOS** | [TestFlight](https://testflight.apple.com/join/YOUR_CODE) | Replace with your link |
-
-> **Maintainers:** Update the links above before publishing the repo. See [PLAY_STORE_DEPLOYMENT_GUIDE.md](PLAY_STORE_DEPLOYMENT_GUIDE.md) for deployment steps.
 
 ### Quick start (after install)
 
