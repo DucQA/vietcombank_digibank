@@ -30,12 +30,24 @@
 
 This is **not** a real bank app. It uses **mock data only** and does **not** connect to banking APIs. The goal is to explore what modern private banking can feel like when design and engineering are built together.
 
-| | |
-|---|---|
-| **Screens** | 107 across 24 feature systems |
-| **Design** | Dark glassmorphism, bronze & gold palette |
-| **Languages** | Vietnamese (default) + English |
-| **Architecture** | Clean Architecture, BLoC, go_router |
+<table>
+  <tr>
+    <td><b>Screens</b></td>
+    <td>107 across 24 feature systems</td>
+  </tr>
+  <tr>
+    <td><b>Design</b></td>
+    <td>Dark glassmorphism, bronze & gold palette</td>
+  </tr>
+  <tr>
+    <td><b>Languages</b></td>
+    <td>Vietnamese (default) + English</td>
+  </tr>
+  <tr>
+    <td><b>Architecture</b></td>
+    <td>Clean Architecture, BLoC, go_router</td>
+  </tr>
+</table>
 
 ---
 
