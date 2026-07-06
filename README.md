@@ -28,7 +28,7 @@
 
 ## 🏛️ About & Inspiration
 
-**Aureum** is a production-grade **UI/UX portfolio case study** of a premium mobile banking application. It started as a comprehensive design study and functional clone of **Vietcombank Digibank** (Vietnam's leading digital banking app) and was reimagined as an independent luxury brand — **Aureum** (Latin for *golden*).
+**Aureum** is a production-grade **UI/UX portfolio case study** of a premium mobile banking application. It started as a comprehensive design study and functional clone of **Vietcombank Digibank** (Vietnam's leading digital banking app) and was reimagined as an independent luxury brand — **Aureum** (Latin for _golden_).
 
 This project serves as an educational resource and interactive showcase for mobile developers and designers. It demonstrates how to scale a Flutter codebase to **107 screens** using clean architecture, robust state management, and custom glassmorphism design tokens.
 
@@ -63,15 +63,16 @@ Experience the luxury UI firsthand by installing the beta app on your device. Si
 
 > [!IMPORTANT]
 > **Android Beta Installation Steps:**
+>
 > 1. **Join the Testers Group:** Join our Google Group [aureum-digibank-testers](https://groups.google.com/g/aureum-digibank-testers) to authorize your Google Play Account for the testing track.
 > 2. **Opt-in & Download:** Click the [Google Play Testing Link](https://play.google.com/apps/testing/com.dinhsoft.aureum) to accept the testing invite and download the app directly from the Google Play Store.
 
 ### Download
 
-| Platform | Link / Instructions | Status |
-|----------|---------------------|--------|
+| Platform    | Link / Instructions                                                   | Status            |
+| ----------- | --------------------------------------------------------------------- | ----------------- |
 | **Android** | Follow the [Steps Above](#-try-the-app-beta) to get it on Google Play | **Active (Live)** |
-| **iOS** | [TestFlight](https://testflight.apple.com/join/YOUR_CODE) | Coming soon |
+| **iOS**     | [TestFlight](https://testflight.apple.com/join/YOUR_CODE)             | Coming soon       |
 
 ### 🚀 Quick Start (After Install)
 
@@ -89,6 +90,7 @@ Experience the luxury UI firsthand by installing the beta app on your device. Si
 ### 🔍 What to Explore & Test
 
 We encourage you to explore the depth of this case study:
+
 - 📱 **Smooth Navigation:** Test the complex back-stack behavior and deep navigation flows across 107 screens.
 - 🎨 **Premium Aesthetics:** Inspect the custom dark glassmorphism theme, gold/bronze design tokens, readability, and touch targets.
 - 💸 **Interactive Mock Flows:** Try making a mock transfer, paying bills, opening savings accounts, or applying for mock loans.
@@ -120,19 +122,19 @@ We encourage you to explore the depth of this case study:
 <details>
 <summary><strong>Raw device screenshots (Pixel 6 Pro)</strong></summary>
 
-| Screen | Preview |
-|--------|---------|
-| Login | <img src="marketing/raw/01_login.png" width="200" /> |
-| Home | <img src="marketing/raw/02_home.png" width="200" /> |
-| History | <img src="marketing/raw/03_history.png" width="200" /> |
-| QR | <img src="marketing/raw/04_qr.png" width="200" /> |
-| Finance | <img src="marketing/raw/05_finance.png" width="200" /> |
+| Screen   | Preview                                                 |
+| -------- | ------------------------------------------------------- |
+| Login    | <img src="marketing/raw/01_login.png" width="200" />    |
+| Home     | <img src="marketing/raw/02_home.png" width="200" />     |
+| History  | <img src="marketing/raw/03_history.png" width="200" />  |
+| QR       | <img src="marketing/raw/04_qr.png" width="200" />       |
+| Finance  | <img src="marketing/raw/05_finance.png" width="200" />  |
 | Transfer | <img src="marketing/raw/07_transfer.png" width="200" /> |
-| Cards | <img src="marketing/raw/08_cards.png" width="200" /> |
-| Bills | <img src="marketing/raw/09_bills.png" width="200" /> |
-| Savings | <img src="marketing/raw/10_savings.png" width="200" /> |
-| Invest | <img src="marketing/raw/11_invest.png" width="200" /> |
-| eKYC | <img src="marketing/raw/12_ekyc.png" width="200" /> |
+| Cards    | <img src="marketing/raw/08_cards.png" width="200" />    |
+| Bills    | <img src="marketing/raw/09_bills.png" width="200" />    |
+| Savings  | <img src="marketing/raw/10_savings.png" width="200" />  |
+| Invest   | <img src="marketing/raw/11_invest.png" width="200" />   |
+| eKYC     | <img src="marketing/raw/12_ekyc.png" width="200" />     |
 
 </details>
 
@@ -144,13 +146,13 @@ All features below are **UI mockups with simulated data** — fully navigable, n
 
 ### Core navigation
 
-| Tab | Description |
-|-----|-------------|
-| **Home** | Account overview, balance card, quick actions, services grid, promotions |
-| **History** | Transaction history with filters |
-| **QR** | My QR, scan-to-pay, QR history |
-| **Finance** | Personal finance / spending insights (charts) |
-| **More** | Extended services, settings entry points |
+| Tab         | Description                                                              |
+| ----------- | ------------------------------------------------------------------------ |
+| **Home**    | Account overview, balance card, quick actions, services grid, promotions |
+| **History** | Transaction history with filters                                         |
+| **QR**      | My QR, scan-to-pay, QR history                                           |
+| **Finance** | Personal finance / spending insights (charts)                            |
+| **More**    | Extended services, settings entry points                                 |
 
 ### Authentication & onboarding
 
@@ -216,23 +218,23 @@ All features below are **UI mockups with simulated data** — fully navigable, n
 
 ## 📊 Project scale
 
-| Metric | Value |
-|--------|-------|
-| Screens | **107 / 107** |
-| Feature systems | **24** |
-| State management | flutter_bloc |
-| Routing | go_router + auth guards |
-| DI | get_it |
-| Networking | Dio (mock fallback) |
+| Metric           | Value                   |
+| ---------------- | ----------------------- |
+| Screens          | **107 / 107**           |
+| Feature systems  | **24**                  |
+| State management | flutter_bloc            |
+| Routing          | go_router + auth guards |
+| DI               | get_it                  |
+| Networking       | Dio (mock fallback)     |
 
 <details>
 <summary><strong>All 24 feature systems</strong></summary>
 
 1. Core Structure · 2. eKYC · 3. Investment · 4. Settings & Profile · 5. Notifications
-6. Transaction History · 7. Insurance · 8. More Services · 9. Utilities · 10. Promotions
-11. Customer Support · 12. Account Management · 13. Financial Tools · 14. Rewards & Loyalty
-15. Documents · 16. Advanced Settings · 17. QR Payment · 18. Transfer · 19. Cards
-20. Bill Payment · 21. Savings · 22. Loans · 23. Authentication · 24. Home & Navigation
+2. Transaction History · 7. Insurance · 8. More Services · 9. Utilities · 10. Promotions
+3. Customer Support · 12. Account Management · 13. Financial Tools · 14. Rewards & Loyalty
+4. Documents · 16. Advanced Settings · 17. QR Payment · 18. Transfer · 19. Cards
+5. Bill Payment · 21. Savings · 22. Loans · 23. Authentication · 24. Home & Navigation
 
 </details>
 
@@ -240,12 +242,12 @@ All features below are **UI mockups with simulated data** — fully navigable, n
 
 ## 🎨 Design
 
-| Element | Detail |
-|---------|--------|
-| **Brand** | Aureum — premium private banking |
-| **Palette** | Bronze `#8B5E3C`, Gold `#D4AF37`, Dark `#0A0A0A` |
-| **Typography** | Playfair Display + Inter |
-| **Style** | Glassmorphism, dark luxury theme |
+| Element         | Detail                                                         |
+| --------------- | -------------------------------------------------------------- |
+| **Brand**       | Aureum — premium private banking                               |
+| **Palette**     | Bronze `#8B5E3C`, Gold `#D4AF37`, Dark `#0A0A0A`               |
+| **Typography**  | Playfair Display + Inter                                       |
+| **Style**       | Glassmorphism, dark luxury theme                               |
 | **Inspiration** | Premium digital banking UX (Vietcombank Digibank design study) |
 
 ---
@@ -253,9 +255,3 @@ All features below are **UI mockups with simulated data** — fully navigable, n
 ## ⚠️ Disclaimer
 
 > **Aureum is a UI/UX demonstration project.** It is not affiliated with Vietcombank or any financial institution. It does not provide real banking services, store real credentials, or process real transactions. Do not enter real personal or financial data. For educational and design portfolio purposes only.
-
----
-
-<p align="center">
-  Built with Flutter · Designed for premium banking UX · Open for beta feedback
-</p>
