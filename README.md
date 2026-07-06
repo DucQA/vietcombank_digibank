@@ -1,7 +1,7 @@
 # Aureum — Premium Mobile Banking UI
 
 <p align="center">
-  <img src="marketing/output/play_store/01_hero.png" alt="Aureum home screen" width="280" />
+  <img src="screenshots/01_hero.png" alt="Aureum home screen" width="280" />
 </p>
 
 <p align="center">
@@ -88,16 +88,16 @@ We welcome testers to explore the UI/UX and share feedback. No real money, accou
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="marketing/output/play_store/02_transfers.png" width="200" />
-  <img src="marketing/output/play_store/03_qr_payments.png" width="200" />
-  <img src="marketing/output/play_store/04_finance.png" width="200" />
-  <img src="marketing/output/play_store/05_cards.png" width="200" />
+  <img src="screenshots/02_transfers.png" width="200" />
+  <img src="screenshots/03_qr_payments.png" width="200" />
+  <img src="screenshots/04_finance.png" width="200" />
+  <img src="screenshots/05_cards.png" width="200" />
 </p>
 
 <p align="center">
-  <img src="marketing/output/play_store/06_savings.png" width="200" />
-  <img src="marketing/output/play_store/07_investments.png" width="200" />
-  <img src="marketing/output/play_store/08_security.png" width="200" />
+  <img src="screenshots/06_savings.png" width="200" />
+  <img src="screenshots/07_investments.png" width="200" />
+  <img src="screenshots/08_security.png" width="200" />
 </p>
 
 <details>
