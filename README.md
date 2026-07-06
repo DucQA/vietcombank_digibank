@@ -119,25 +119,6 @@ We encourage you to explore the depth of this case study:
   <img src="screenshots/08_security.png" width="200" />
 </p>
 
-<details>
-<summary><strong>Raw device screenshots (Pixel 6 Pro)</strong></summary>
-
-| Screen   | Preview                                                 |
-| -------- | ------------------------------------------------------- |
-| Login    | <img src="marketing/raw/01_login.png" width="200" />    |
-| Home     | <img src="marketing/raw/02_home.png" width="200" />     |
-| History  | <img src="marketing/raw/03_history.png" width="200" />  |
-| QR       | <img src="marketing/raw/04_qr.png" width="200" />       |
-| Finance  | <img src="marketing/raw/05_finance.png" width="200" />  |
-| Transfer | <img src="marketing/raw/07_transfer.png" width="200" /> |
-| Cards    | <img src="marketing/raw/08_cards.png" width="200" />    |
-| Bills    | <img src="marketing/raw/09_bills.png" width="200" />    |
-| Savings  | <img src="marketing/raw/10_savings.png" width="200" />  |
-| Invest   | <img src="marketing/raw/11_invest.png" width="200" />   |
-| eKYC     | <img src="marketing/raw/12_ekyc.png" width="200" />     |
-
-</details>
-
 ---
 
 ## ✨ Feature Overview
