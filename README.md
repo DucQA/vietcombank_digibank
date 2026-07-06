@@ -1,15 +1,16 @@
-# Aureum — Premium Mobile Banking UI
+# Aureum — Premium Vietcombank Digibank Clone & Luxury Mobile Banking UI
 
 <p align="center">
-  <img src="screenshots/09_feature_graphic.png" alt="Aureum home screen" width="100%" />
+  <img src="screenshots/09_feature_graphic.png" alt="Aureum - Premium Vietcombank Digibank Clone UI" width="100%" />
 </p>
 
 <p align="center">
-  A luxury mobile banking UI demo built with Flutter — 107 screens, glassmorphism design, Vietnamese-first flows.
+  A high-fidelity luxury mobile banking UI case study and clone of <strong>Vietcombank Digibank (VCB)</strong> built with Flutter.<br/>
+  Featuring 107 screens, full glassmorphism dark theme, and complete Vietnamese-first UX flows.
 </p>
 
 <p align="center">
-  <a href="#-try-the-app-beta">Try the App</a> ·
+  <a href="#-try-the-app-beta">Try the App Beta</a> ·
   <a href="#-screenshots">Screenshots</a> ·
   <a href="#-feature-overview">Features</a> ·
   <a href="#-disclaimer">Disclaimer</a>
@@ -18,34 +19,39 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter&logoColor=white" alt="Flutter" />
   <img src="https://img.shields.io/badge/Screens-107-8B5E3C" alt="107 screens" />
+  <img src="https://img.shields.io/badge/Vietcombank-Study-00A859?logo=googleplay&logoColor=white" alt="Vietcombank Study" />
   <img src="https://img.shields.io/badge/Data-Mock_Demo-D4AF37" alt="Mock demo" />
   <img src="https://img.shields.io/badge/Platform-Android_%7C_iOS-green" alt="Android iOS" />
 </p>
 
 ---
 
-## About
+## 🏛️ About & Inspiration
 
-**Aureum** is a production-quality **UI/UX portfolio demo** of a premium digital banking app. It started as a deep study of Vietcombank Digibank design patterns and evolved into an independent luxury brand — **Aureum** (Latin for *golden*).
+**Aureum** is a production-grade **UI/UX portfolio case study** of a premium mobile banking application. It started as a comprehensive design study and functional clone of **Vietcombank Digibank** (Vietnam's leading digital banking app) and was reimagined as an independent luxury brand — **Aureum** (Latin for *golden*).
 
-This is **not** a real bank app. It uses **mock data only** and does **not** connect to banking APIs. The goal is to explore what modern private banking can feel like when design and engineering are built together.
+This project serves as an educational resource and interactive showcase for mobile developers and designers. It demonstrates how to scale a Flutter codebase to **107 screens** using clean architecture, robust state management, and custom glassmorphism design tokens.
 
 <table>
+  <tr>
+    <td><b>Concept</b></td>
+    <td>Vietcombank Digibank Clone / UI Study</td>
+  </tr>
   <tr>
     <td><b>Screens</b></td>
     <td>107 across 24 feature systems</td>
   </tr>
   <tr>
-    <td><b>Design</b></td>
-    <td>Dark glassmorphism, bronze & gold palette</td>
+    <td><b>Design Style</b></td>
+    <td>Dark glassmorphism, bronze & gold luxury palette</td>
   </tr>
   <tr>
     <td><b>Languages</b></td>
-    <td>Vietnamese (default) + English</td>
+    <td>Vietnamese (default) + English (complete localization)</td>
   </tr>
   <tr>
     <td><b>Architecture</b></td>
-    <td>Clean Architecture, BLoC, go_router</td>
+    <td>Clean Architecture, BLoC, go_router, get_it</td>
   </tr>
 </table>
 
@@ -53,16 +59,21 @@ This is **not** a real bank app. It uses **mock data only** and does **not** con
 
 ## 📲 Try the App (Beta)
 
-We welcome testers to explore the UI/UX and share feedback. No real money, accounts, or transactions are involved.
+Experience the luxury UI firsthand by installing the beta app on your device. Since this is a pure UI/UX mockup, it is **100% safe** — it requests no sensitive permissions, handles no real funds, and requires no registration.
+
+> [!IMPORTANT]
+> **Android Beta Installation Steps:**
+> 1. **Join the Testers Group:** Join our Google Group [aureum-digibank-testers](https://groups.google.com/g/aureum-digibank-testers) to authorize your Google Play Account for the testing track.
+> 2. **Opt-in & Download:** Click the [Google Play Testing Link](https://play.google.com/apps/testing/com.dinhsoft.aureum) to accept the testing invite and download the app directly from the Google Play Store.
 
 ### Download
 
 | Platform | Link / Instructions | Status |
 |----------|---------------------|--------|
-| **Android** | 1. Join the [Google Group](https://groups.google.com/g/aureum-digibank-testers)<br/>2. Download the app on [Google Play](https://play.google.com/apps/testing/com.dinhsoft.aureum) | Live |
+| **Android** | Follow the [Steps Above](#-try-the-app-beta) to get it on Google Play | **Active (Live)** |
 | **iOS** | [TestFlight](https://testflight.apple.com/join/YOUR_CODE) | Coming soon |
 
-### Quick start (after install)
+### 🚀 Quick Start (After Install)
 
 1. **Install** the app from Google Play (testing track) or TestFlight.
 2. **Open** Aureum — you will land on the login screen.
@@ -75,20 +86,19 @@ We welcome testers to explore the UI/UX and share feedback. No real money, accou
 6. **Switch language** — Settings → Language → English / Vietnamese.
 7. **Share feedback** — [Open an issue](https://github.com/YOUR_USERNAME/YOUR_REPO/issues/new) with screenshots and steps.
 
-### What to test
+### 🔍 What to Explore & Test
 
-- Navigation depth and back-stack behavior
-- Readability, spacing, and touch targets
-- Glassmorphism / dark theme consistency
-- Form flows (transfer, bills, cards, savings)
-- Vietnamese vs English localization
-- Overall premium banking *feel*
+We encourage you to explore the depth of this case study:
+- 📱 **Smooth Navigation:** Test the complex back-stack behavior and deep navigation flows across 107 screens.
+- 🎨 **Premium Aesthetics:** Inspect the custom dark glassmorphism theme, gold/bronze design tokens, readability, and touch targets.
+- 💸 **Interactive Mock Flows:** Try making a mock transfer, paying bills, opening savings accounts, or applying for mock loans.
+- 🇻🇳 **Dual Language Localization:** Switch between Vietnamese (default) and English seamlessly in Settings.
+- 🛡️ **Interactive eKYC:** Experience the custom mock eKYC flow including simulated OCR card scanning, FacePay, and document verification.
 
-### What you cannot do
+### 🔒 Privacy & Safety Guarantee
 
-- Real payments, transfers, or account opening
-- Connect to real bank accounts
-- Expect live API data (all responses are mocked)
+- **Zero Permissions:** The app does not request access to your contacts, camera (except for mock eKYC preview), location, or files.
+- **No Real Assets:** No real money or accounts are connected. All balances and transactions are generated locally.
 
 ---
 
