@@ -85,7 +85,7 @@ Experience the luxury UI firsthand by installing the beta app on your device. Si
    - **Trang chủ** (Home) · **Lịch sử** (History) · **Quét QR** (QR) · **Tài chính** (Finance) · **Thêm** (More)
 5. **Try key flows** — transfers, bill pay, cards, savings, invest, eKYC, settings, and more (all mock).
 6. **Switch language** — Settings → Language → English / Vietnamese.
-7. **Share feedback** — [Open an issue](https://github.com/YOUR_USERNAME/YOUR_REPO/issues/new) with screenshots and steps.
+7. **Share feedback** — [Open an issue](https://github.com/DucQA/vietcombank_digibank/issues/new) with screenshots and steps.
 
 ### 🔍 What to Explore & Test
 
