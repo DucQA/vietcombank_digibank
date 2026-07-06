@@ -203,7 +203,6 @@ All features below are **UI mockups with simulated data** — fully navigable, n
 |--------|-------|
 | Screens | **107 / 107** |
 | Feature systems | **24** |
-| Lines of code | ~35,000+ |
 | State management | flutter_bloc |
 | Routing | go_router + auth guards |
 | DI | get_it |
@@ -234,71 +233,9 @@ All features below are **UI mockups with simulated data** — fully navigable, n
 
 ---
 
-## 🛠 For developers
-
-### Prerequisites
-
-- Flutter SDK **3.0+**
-- Xcode (iOS) or Android Studio (Android)
-
-### Run locally
-
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
-flutter pub get
-flutter run
-```
-
-### Capture screenshots (integration test)
-
-```bash
-flutter drive \
-  --driver=test_driver/integration_test.dart \
-  --target=integration_test/screenshot_test.dart \
-  -d <device_id>
-```
-
-Screenshots save to `marketing/raw/`.
-
-### Project structure
-
-```
-lib/
-├── core/           # Theme, DI, navigation, design system
-├── features/       # Feature modules (domain / data / presentation)
-├── l10n/           # Vietnamese + English localizations
-└── navigation/     # Main shell + bottom nav
-```
-
-### Tech stack
-
-`flutter_bloc` · `go_router` · `get_it` · `dio` · `equatable` · `fl_chart` · `mobile_scanner` · `google_fonts`
-
----
-
-## 🤝 Feedback
-
-Beta testers — thank you! Please report:
-
-- Confusing navigation or dead ends
-- Text overflow / layout issues
-- Screens that feel unfinished
-- Suggestions for animations or accessibility
-
-**[Submit feedback (GitHub Issues)](https://github.com/YOUR_USERNAME/YOUR_REPO/issues/new)**
-
----
-
 ## ⚠️ Disclaimer
 
 > **Aureum is a UI/UX demonstration project.** It is not affiliated with Vietcombank or any financial institution. It does not provide real banking services, store real credentials, or process real transactions. Do not enter real personal or financial data. For educational and design portfolio purposes only.
-
----
-
-## 📄 License
-
-Private / portfolio project. See repository license terms before redistribution.
 
 ---
 
