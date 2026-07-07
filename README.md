@@ -198,7 +198,7 @@ All features below are high-fidelity, fully navigable **UI mockups with simulate
 
 | Metric           | Value                   |
 | ---------------- | ----------------------- |
-| Screens          | **277 / 277**           |
+| Screens          | **277**           |
 | Feature systems  | **38**                  |
 | State management | flutter_bloc            |
 | Routing          | go_router + auth guards |
