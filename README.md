@@ -64,7 +64,7 @@ Experience the luxury UI firsthand by installing the beta app on your device. Si
 > [!IMPORTANT]
 > **Android Beta Installation Steps:**
 >
-> 1. **Join the Testers Group:** Join our Google Group [aureum-digibank-testers](https://groups.google.com/g/aureum-digibank-testers) to authorize your Google Play Account for the testing track.
+> 1. **Join the Testers Group:** Join our [Google Group] (https://groups.google.com/g/aureum-digibank-testers) to authorize your Google Play Account for the testing track.
 > 2. **Opt-in & Download:** Click the [Google Play Testing Link](https://play.google.com/apps/testing/com.dinhsoft.aureum) to accept the testing invite and download the app directly from the Google Play Store.
 
 ### Download
