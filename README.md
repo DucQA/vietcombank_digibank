@@ -205,20 +205,6 @@ All features below are high-fidelity, fully navigable **UI mockups with simulate
 | DI               | get_it                  |
 | Networking       | Dio (mock fallback)     |
 
-<details>
-<summary><strong>All 38 feature systems</strong></summary>
-
-1. Account Management · 2. Accounts · 3. App Settings · 4. Authentication · 5. Bill Payments
-6. Cards (Credit/Debit) · 7. Disputes (Tra soát) · 8. Documents & Statements · 9. eKYC & FacePay · 10. eWallet Linking
-11. Family Accounts · 12. Personal Finance · 13. Government Payments · 14. History · 15. Home & Navigation
-16. Insurance · 17. Investments · 18. Loans & Overdrafts · 19. Lucky Money · 20. Merchant Services
-21. More Menu · 22. More Services (Extended Hub) · 23. Notifications · 24. PFM (Personal Finance Management) · 25. Promotions
-26. QR Payments & Scan · 27. Rewards & Loyalty · 28. Savings · 29. Security · 30. Settings
-31. Digital Signature · 32. Customer Support · 33. Mobile Top-up & Data · 34. Transaction Results · 35. Transaction History
-36. Transfers (Scheduled/Batch/Cash) · 37. Lifestyle Utilities (Travel/Tickets) · 38. VNeID Integration
-
-</details>
-
 ---
 
 ## 🎨 Design
