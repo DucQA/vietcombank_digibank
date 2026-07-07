@@ -6,7 +6,7 @@
 
 <p align="center">
   A high-fidelity luxury mobile banking UI case study and clone of <strong>Vietcombank Digibank (VCB)</strong> built with Flutter.<br/>
-  Featuring 107 screens, full glassmorphism dark theme, and complete Vietnamese-first UX flows.
+  Featuring 277 screens, full glassmorphism dark theme, and complete Vietnamese-first UX flows.
 </p>
 
 <p align="center">
@@ -26,11 +26,11 @@
 
 ---
 
-## 🏛️ About & Inspiration
+## About
 
-**Aureum** is a production-grade **UI/UX portfolio case study** of a premium mobile banking application. It started as a comprehensive design study and functional clone of **Vietcombank Digibank** (Vietnam's leading digital banking app) and was reimagined as an independent luxury brand — **Aureum** (Latin for _golden_).
+**Aureum** is a production-quality **UI/UX portfolio demo** of a premium digital banking app. It started as a deep study of Vietcombank Digibank design patterns and evolved into an independent luxury brand — **Aureum** (Latin for *golden*).
 
-This project serves as an educational resource and interactive showcase for mobile developers and designers. It demonstrates how to scale a Flutter codebase to **107 screens** using clean architecture, robust state management, and custom glassmorphism design tokens.
+This is **not** a real bank app. It uses **mock data only** and does **not** connect to banking APIs. The goal is to explore what modern private banking can feel like when design and engineering are built together.
 
 <table>
   <tr>
@@ -39,7 +39,7 @@ This project serves as an educational resource and interactive showcase for mobi
   </tr>
   <tr>
     <td><b>Screens</b></td>
-    <td>107 across 24 feature systems</td>
+    <td>277 across 38 feature systems</td>
   </tr>
   <tr>
     <td><b>Design Style</b></td>
@@ -79,7 +79,7 @@ Experience the luxury UI firsthand by installing the beta app on your device. Si
 1. **Install** the app from Google Play (testing track) or TestFlight.
 2. **Open** Aureum — you will land on the login screen.
 3. **Sign in** with any non-empty password (demo mock auth).
-   - Example: `demo123`
+   - Example: `123456`
    - Or tap the **biometric** button to simulate fingerprint / Face ID login.
 4. **Explore** via the 5-tab bottom navigation:
    - **Trang chủ** (Home) · **Lịch sử** (History) · **Quét QR** (QR) · **Tài chính** (Finance) · **Thêm** (More)
@@ -123,77 +123,74 @@ We encourage you to explore the depth of this case study:
 
 ## ✨ Feature Overview
 
-All features below are **UI mockups with simulated data** — fully navigable, not connected to real services.
+All features below are high-fidelity, fully navigable **UI mockups with simulated data** — no real financial APIs or credentials are used.
 
-### Core navigation
+### 1. 🧭 Core Structure & Navigation (3 Screens)
+*   **Home & Dashboard** (1 screen): Balance details, multi-account view, customized quick actions, services grid, and promotions feed.
+*   **Main Navigation** (1 screen): Primary bottom-bar shell controller (`MainScreen`) mapping central tabs.
+*   **More Menu** (1 screen): Categorized index of all available digital banking features.
 
-| Tab         | Description                                                              |
-| ----------- | ------------------------------------------------------------------------ |
-| **Home**    | Account overview, balance card, quick actions, services grid, promotions |
-| **History** | Transaction history with filters                                         |
-| **QR**      | My QR, scan-to-pay, QR history                                           |
-| **Finance** | Personal finance / spending insights (charts)                            |
-| **More**    | Extended services, settings entry points                                 |
+### 2. 🔐 Authentication & Onboarding (18 Screens)
+*   **eKYC Onboarding** (11 screens): ID card OCR scanning, camera liveness detection, error/success screens, NFC identity scanning, and biometric registration.
+*   **Authentication** (4 screens): Passcode login, biometric prompt simulation (Face ID / fingerprint), and forgot password verification/reset.
+*   **VNeID Integration** (3 screens): National digital ID linking flow.
 
-### Authentication & onboarding
+### 3. 💳 Accounts & Wallet Management (16 Screens)
+*   **Accounts Directory** (7 screens): Multi-account balances, account nicknames (alias setup), alias search, and special/golden account number registration.
+*   **Account Management** (3 screens): Account statement export forms, closure requests, and daily limit updates.
+*   **Family Accounts** (3 screens): VCB Family joint savings and spending wallet setups.
+*   **eWallet Linking** (3 screens): Third-party wallet integration flow (Momo, ZaloPay).
 
-- Login with password (mock)
-- Biometric login (fingerprint / Face ID UI)
-- eKYC flow — OCR, liveness, NFC, FacePay screens
-- VNeID digital ID linking (mock)
-- Session & device management
+### 4. 💸 Transfers & Transactions (34 Screens)
+*   **Transfer Flow** (15 screens): 24/7 fast & normal transfers to accounts/cards, beneficiary management (add, search, list), scheduled/recurring transfers, cash transfer codes, and batch transfers.
+*   **QR Payments & Scanning** (13 screens): QR camera scanner, My QR generator, QR ATM cardless withdrawals, custom QR bill sharing, and VietQR generation.
+*   **Transaction Receipts** (6 screens): Main transaction history page, details page, receipt detail screen, and success states.
 
-### Money & accounts
+### 5. 💳 Cards & Card Services (25 Screens)
+*   **Cards Center** (25 screens): Credit/debit card carousel, activation, instant card locking, transaction limits configuration, PIN resets, physical card print delivery orders, replacement orders, repayments, transaction installment converter, and card gamification/quizzes.
 
-- **Transfers** — input, confirm, OTP, success, beneficiaries, templates, scheduled & batch transfers, limits
-- **Accounts** — multi-account view, aliases, statements, limits, closure flow
-- **Savings** — open account, top-up, withdraw, projection, payout options, settlement
-- **Loans** — overview, detail, payment, schedule, documents
-- **PFM** — budget planner, expense tracker, financial goals
+### 6. 🔌 Payments, Top-ups & Public Services (32 Screens)
+*   **Bill Payments** (12 screens): Electric, water, internet, television, tuition, insurance, and hospital fees with recurring autopay configuration.
+*   **Mobile Top-ups** (6 screens): Mobile balance top-up forms, prepaid scratchcard purchasing, and telecom mobile data package plans.
+*   **Government Payments** (11 screens): State budget taxes, seaport fees, social insurance contributions, and traffic fine lookups.
+*   **Lucky Money (Lì xì)** (3 screens): Personalized envelope skins and greeting message forms.
 
-### Cards
+### 7. 📈 Savings & Loans (25 Screens)
+*   **Savings (Tiết kiệm)** (16 screens): Open savings accounts, Accumulative deposits, An Vui savings, interest rate tables, projection graphs, top-up/withdrawals, payout settings, and maturity settlements.
+*   **Loans & Overdrafts** (9 screens): Overdraft application forms, loan disbursements, document uploads, application status trackers, repayment schedules, and principal payments.
 
-- Card carousel & details
-- Card services hub
-- Lock / unlock, PIN change, limits
-- Statements, transactions, installments
-- Virtual card, activation, replacement, repayment
+### 8. 📊 Investments & Wealth (25 Screens)
+*   **Investments** (9 screens): Stock trading top-up interfaces, VCBS account registration, mutual funds, and certificate deposits.
+*   **Insurance** (8 screens): Insurance products hub, package comparison, calculation tools, policy proposals, and claims overview.
+*   **Merchant Services** (2 screens): Revenue overview dashboards and KiotViet integration.
+*   **Digital Signatures & Documents** (5 screens): E-contracts locker, digital signature registration canvases, and e-statement agreements.
+*   **Finance Tab** (1 screen): Comprehensive assets and liabilities overview.
 
-### Payments & top-up
+### 9. 📈 PFM (Personal Finance Management) (8 Screens)
+*   **PFM Dashboard** (8 screens): Expense trackers, monthly budget planners, financial goal progress logs, and visual spending report graphs.
 
-- **QR payments** — scan, pay, result, My QR, ATM cardless, lucky money QR
-- **Bill payment** — electricity, water, internet, TV, tuition, traffic, hospital, insurance + autopay
-- **Mobile top-up** — prepaid recharge flow
-- **eWallets** — Momo, ZaloPay linking (mock)
+### 10. 🚀 More Services (Extended Hub) (24 Screens)
+*   **Extended Services** (24 screens): Gold Trading & SJC Gold Booking, ePass/VETC toll top-ups, e-commerce shopping, Vietlott ticket orders, charity donations, airport lounge passes, forex exchange tables, and an interactive Year-in-Review (Lookback 2025).
 
-### Investments & insurance
+### 11. ✈️ Lifestyle Utilities (Travel & Bookings) (38 Screens)
+*   **Utilities Hub** (38 screens):
+    *   **Flight Booking**: Search engines, results filter, passenger information forms, seat maps, and checkout.
+    *   **Train & Bus Tickets**: Seat selectors, ticket booking, and receipts.
+    *   **Hotel Booking**: Search engines, room filters, guest info, and invoice details.
+    *   **Taxi Hailing**: Map route preview, taxi booking, and rides.
+    *   **Movie Tickets**: Cinema choice, seat mapping, and ticket receipts.
+    *   **VNA Check-in**: Flight check-in and boarding passes.
 
-- Investment portfolio & products
-- Stock top-up, certificates
-- Insurance products & policy management
+### 12. ⚙️ Settings, Profile & Security (9 Screens)
+*   **Settings Menu** (4 screens): User profiles, security setting dashboards, and notifications options.
+*   **Security Settings** (4 screens): Login passcode changes, default account preferences, favorite features selectors, and app theme selectors.
+*   **Biometrics Setup** (1 screen): Secure device biometric setups.
 
-### QR & lifestyle utilities
-
-- Flights, taxi, hotel, movies booking (UI)
-- SJC gold booking, toll top-up (ePass / VETC)
-- Forex, charity, shopping, lounge access
-- Lucky money (Lì xì) themes & forms
-
-### Support & engagement
-
-- Live chat, FAQ, branch / ATM map
-- Branch booking & rates info
-- Promotions, vouchers, loyalty points, rewards catalog
-- Notifications center
-- Document center & e-statements
-
-### Settings & security
-
-- Profile, security, notifications
-- Biometric settings, 2FA, transaction PIN
-- Trusted devices, session history
-- Language (VI / EN), accessibility, auto-lock
-- About, terms & privacy
+### 13. 💬 Customer Support & Engagement (20 Screens)
+*   **Support Hub** (9 screens): Live chat support, FAQ indices, branch booking tickets, and branch/ATM locator maps.
+*   **Rewards & Loyalty** (5 screens): Loyalty points history, catalog, and UrBox coupon list/details.
+*   **Promotions** (2 screens): Active promotion lists and campaign details.
+*   **Notifications Inbox** (4 screens): Notifications inbox and filtering.
 
 ---
 
@@ -201,21 +198,24 @@ All features below are **UI mockups with simulated data** — fully navigable, n
 
 | Metric           | Value                   |
 | ---------------- | ----------------------- |
-| Screens          | **107 / 107**           |
-| Feature systems  | **24**                  |
+| Screens          | **277 / 277**           |
+| Feature systems  | **38**                  |
 | State management | flutter_bloc            |
 | Routing          | go_router + auth guards |
 | DI               | get_it                  |
 | Networking       | Dio (mock fallback)     |
 
 <details>
-<summary><strong>All 24 feature systems</strong></summary>
+<summary><strong>All 38 feature systems</strong></summary>
 
-1. Core Structure · 2. eKYC · 3. Investment · 4. Settings & Profile · 5. Notifications
-2. Transaction History · 7. Insurance · 8. More Services · 9. Utilities · 10. Promotions
-3. Customer Support · 12. Account Management · 13. Financial Tools · 14. Rewards & Loyalty
-4. Documents · 16. Advanced Settings · 17. QR Payment · 18. Transfer · 19. Cards
-5. Bill Payment · 21. Savings · 22. Loans · 23. Authentication · 24. Home & Navigation
+1. Account Management · 2. Accounts · 3. App Settings · 4. Authentication · 5. Bill Payments
+6. Cards (Credit/Debit) · 7. Disputes (Tra soát) · 8. Documents & Statements · 9. eKYC & FacePay · 10. eWallet Linking
+11. Family Accounts · 12. Personal Finance · 13. Government Payments · 14. History · 15. Home & Navigation
+16. Insurance · 17. Investments · 18. Loans & Overdrafts · 19. Lucky Money · 20. Merchant Services
+21. More Menu · 22. More Services (Extended Hub) · 23. Notifications · 24. PFM (Personal Finance Management) · 25. Promotions
+26. QR Payments & Scan · 27. Rewards & Loyalty · 28. Savings · 29. Security · 30. Settings
+31. Digital Signature · 32. Customer Support · 33. Mobile Top-up & Data · 34. Transaction Results · 35. Transaction History
+36. Transfers (Scheduled/Batch/Cash) · 37. Lifestyle Utilities (Travel/Tickets) · 38. VNeID Integration
 
 </details>
 
@@ -223,12 +223,12 @@ All features below are **UI mockups with simulated data** — fully navigable, n
 
 ## 🎨 Design
 
-| Element         | Detail                                                         |
-| --------------- | -------------------------------------------------------------- |
-| **Brand**       | Aureum — premium private banking                               |
-| **Palette**     | Bronze `#8B5E3C`, Gold `#D4AF37`, Dark `#0A0A0A`               |
-| **Typography**  | Playfair Display + Inter                                       |
-| **Style**       | Glassmorphism, dark luxury theme                               |
+| Element | Detail |
+|---------|--------|
+| **Brand** | Aureum — premium private banking |
+| **Palette** | Bronze `#8B5E3C`, Gold `#D4AF37`, Dark `#0A0A0A` |
+| **Typography** | Playfair Display + Inter |
+| **Style** | Glassmorphism, dark luxury theme |
 | **Inspiration** | Premium digital banking UX (Vietcombank Digibank design study) |
 
 ---
