@@ -18,7 +18,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter&logoColor=white" alt="Flutter" />
-  <img src="https://img.shields.io/badge/Screens-107-8B5E3C" alt="2777 screens" />
+  <img src="https://img.shields.io/badge/Screens-277-8B5E3C" alt="277 screens" />
   <img src="https://img.shields.io/badge/Vietcombank-Study-00A859?logo=googleplay&logoColor=white" alt="Vietcombank Study" />
   <img src="https://img.shields.io/badge/Data-Mock_Demo-D4AF37" alt="Mock demo" />
   <img src="https://img.shields.io/badge/Platform-Android_%7C_iOS-green" alt="Android iOS" />
