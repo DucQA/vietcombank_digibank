@@ -6,7 +6,7 @@
 
 <p align="center">
   A high-fidelity luxury mobile banking UI case study and clone of <strong>Vietcombank Digibank (VCB)</strong> built with Flutter.<br/>
-  Featuring 277 screens, full glassmorphism dark theme, and complete Vietnamese-first UX flows.
+  Featuring 291 screens, full glassmorphism dark theme, and complete Vietnamese-first UX flows.
 </p>
 
 <p align="center">
@@ -18,7 +18,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter&logoColor=white" alt="Flutter" />
-  <img src="https://img.shields.io/badge/Screens-277-8B5E3C" alt="277 screens" />
+  <img src="https://img.shields.io/badge/Screens-291-8B5E3C" alt="291 screens" />
   <img src="https://img.shields.io/badge/Vietcombank-Study-00A859?logo=googleplay&logoColor=white" alt="Vietcombank Study" />
   <img src="https://img.shields.io/badge/Data-Mock_Demo-D4AF37" alt="Mock demo" />
   <img src="https://img.shields.io/badge/Platform-Android_%7C_iOS-green" alt="Android iOS" />
@@ -39,7 +39,7 @@ This is **not** a real bank app. It uses **mock data only** and does **not** con
   </tr>
   <tr>
     <td><b>Screens</b></td>
-    <td>277 across 38 feature systems</td>
+    <td>291 across 38 feature systems</td>
   </tr>
   <tr>
     <td><b>Design Style</b></td>
@@ -141,10 +141,11 @@ All features below are high-fidelity, fully navigable **UI mockups with simulate
 *   **Family Accounts** (3 screens): VCB Family joint savings and spending wallet setups.
 *   **eWallet Linking** (3 screens): Third-party wallet integration flow (Momo, ZaloPay).
 
-### 4. 💸 Transfers & Transactions (34 Screens)
+### 4. 💸 Transfers & Transactions (36 Screens)
 *   **Transfer Flow** (15 screens): 24/7 fast & normal transfers to accounts/cards, beneficiary management (add, search, list), scheduled/recurring transfers, cash transfer codes, and batch transfers.
 *   **QR Payments & Scanning** (13 screens): QR camera scanner, My QR generator, QR ATM cardless withdrawals, custom QR bill sharing, and VietQR generation.
-*   **Transaction Receipts** (6 screens): Main transaction history page, details page, receipt detail screen, and success states.
+*   **Transaction Receipts & History** (5 screens): Main transaction history page, details page, receipt detail screen, and success states.
+*   **Disputes (Tra soát)** (3 screens): Create dispute request form, dispute tracking list, and dispute request success confirmation.
 
 ### 5. 💳 Cards & Card Services (25 Screens)
 *   **Cards Center** (25 screens): Credit/debit card carousel, activation, instant card locking, transaction limits configuration, PIN resets, physical card print delivery orders, replacement orders, repayments, transaction installment converter, and card gamification/quizzes.
@@ -181,16 +182,16 @@ All features below are high-fidelity, fully navigable **UI mockups with simulate
     *   **Movie Tickets**: Cinema choice, seat mapping, and ticket receipts.
     *   **VNA Check-in**: Flight check-in and boarding passes.
 
-### 12. ⚙️ Settings, Profile & Security (9 Screens)
-*   **Settings Menu** (4 screens): User profiles, security setting dashboards, and notifications options.
-*   **Security Settings** (4 screens): Login passcode changes, default account preferences, favorite features selectors, and app theme selectors.
-*   **Biometrics Setup** (1 screen): Secure device biometric setups.
+### 12. ⚙️ Settings, Profile & Security (23 Screens)
+*   **Settings & Profile** (4 screens): User profiles, settings dashboard, security settings configuration, and notifications options.
+*   **Security Settings** (12 screens): Passcode updates, favorite features selectors, default account preferences, theme options, Google Auth, Soft OTP, and Smart OTP setups.
+*   **App Settings** (7 screens): Accessibility preferences, device management, session history, language settings, and biometrics configuration.
 
-### 13. 💬 Customer Support & Engagement (20 Screens)
+### 13. 💬 Customer Support & Engagement (18 Screens)
 *   **Support Hub** (9 screens): Live chat support, FAQ indices, branch booking tickets, and branch/ATM locator maps.
 *   **Rewards & Loyalty** (5 screens): Loyalty points history, catalog, and UrBox coupon list/details.
 *   **Promotions** (2 screens): Active promotion lists and campaign details.
-*   **Notifications Inbox** (4 screens): Notifications inbox and filtering.
+*   **Notifications Inbox** (2 screens): Notifications inbox list and filters.
 
 ---
 
@@ -198,7 +199,7 @@ All features below are high-fidelity, fully navigable **UI mockups with simulate
 
 | Metric           | Value                   |
 | ---------------- | ----------------------- |
-| Screens          | **277**           |
+| Screens          | **291**           |
 | Feature systems  | **38**                  |
 | State management | flutter_bloc            |
 | Routing          | go_router + auth guards |
